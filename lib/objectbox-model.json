@@ -1,0 +1,281 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "2:1246211299719964484",
+      "lastPropertyId": "12:7774334241951962374",
+      "name": "Expenses",
+      "properties": [
+        {
+          "id": "1:1908047360475861357",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:3700924521704495524",
+          "name": "expenseId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "2:4535446145166243835"
+        },
+        {
+          "id": "3:2936144022076002515",
+          "name": "food",
+          "type": 6
+        },
+        {
+          "id": "4:4123742676484320470",
+          "name": "transport",
+          "type": 6
+        },
+        {
+          "id": "5:6270769258036080969",
+          "name": "expected",
+          "type": 6
+        },
+        {
+          "id": "6:4667935168126801061",
+          "name": "uncertain",
+          "type": 6
+        },
+        {
+          "id": "7:3757094001556035169",
+          "name": "userId",
+          "type": 9
+        },
+        {
+          "id": "8:1733212379322477966",
+          "name": "year",
+          "type": 6
+        },
+        {
+          "id": "9:7846808640369760948",
+          "name": "month",
+          "type": 6
+        },
+        {
+          "id": "10:7651170465843969915",
+          "name": "estimated_food",
+          "type": 6
+        },
+        {
+          "id": "11:1292017716727672654",
+          "name": "estimated_transport",
+          "type": 6
+        },
+        {
+          "id": "12:7774334241951962374",
+          "name": "estimated_expected",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:8268524766577584768",
+      "lastPropertyId": "5:24705785213522336",
+      "name": "OTP",
+      "properties": [
+        {
+          "id": "1:5465400691228074686",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:2651490931536690860",
+          "name": "otpId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "3:8709697004003322929"
+        },
+        {
+          "id": "3:1426583379881222143",
+          "name": "userId",
+          "type": 9
+        },
+        {
+          "id": "4:4679501923808809425",
+          "name": "otp",
+          "type": 9
+        },
+        {
+          "id": "5:24705785213522336",
+          "name": "expiresAt",
+          "type": 10
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:3957829695602115159",
+      "lastPropertyId": "8:1372221257313758298",
+      "name": "Income",
+      "properties": [
+        {
+          "id": "1:9043589308453098902",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:4042944824521462664",
+          "name": "incomeId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "4:9066172443207902225"
+        },
+        {
+          "id": "3:8589711335990576811",
+          "name": "monthlySalary",
+          "type": 6
+        },
+        {
+          "id": "4:1511100741099069657",
+          "name": "estimatedSaving",
+          "type": 6
+        },
+        {
+          "id": "5:5722620694610787761",
+          "name": "receiveDate",
+          "type": 9
+        },
+        {
+          "id": "6:8747917322378452588",
+          "name": "userId",
+          "type": 9
+        },
+        {
+          "id": "7:4578612901466182680",
+          "name": "year",
+          "type": 6
+        },
+        {
+          "id": "8:1372221257313758298",
+          "name": "month",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:512486545301197468",
+      "lastPropertyId": "7:8372963142325931894",
+      "name": "Wish",
+      "properties": [
+        {
+          "id": "1:8204230064788678618",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:8023054580872445369",
+          "name": "wishId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "5:7897033372147528656"
+        },
+        {
+          "id": "3:5337462218110525131",
+          "name": "productName",
+          "type": 9
+        },
+        {
+          "id": "4:7593926737592337379",
+          "name": "price",
+          "type": 6
+        },
+        {
+          "id": "6:7969060332784905182",
+          "name": "userId",
+          "type": 9
+        },
+        {
+          "id": "7:8372963142325931894",
+          "name": "image",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:112631275341158142",
+      "lastPropertyId": "8:8826488090352001142",
+      "name": "Users",
+      "properties": [
+        {
+          "id": "1:4503435957185741963",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:4680398550523197523",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:8968637900922671724",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "4:725962513012578890",
+          "name": "password",
+          "type": 9
+        },
+        {
+          "id": "5:1239100124702782744",
+          "name": "role",
+          "type": 9
+        },
+        {
+          "id": "6:5752563877076135805",
+          "name": "isVerified",
+          "type": 1
+        },
+        {
+          "id": "7:1298094925691976466",
+          "name": "passResetVerified",
+          "type": 1
+        },
+        {
+          "id": "8:8826488090352001142",
+          "name": "userId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "7:2453311693882896323"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "6:112631275341158142",
+  "lastIndexId": "7:2453311693882896323",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    8426906784206537814
+  ],
+  "retiredIndexUids": [
+    1796845095353120636
+  ],
+  "retiredPropertyUids": [
+    7899744946703322261,
+    3471470547661713189,
+    630407225917801177,
+    832673252526150229,
+    240404487109449340,
+    1727397078714979473,
+    7896854558620031219,
+    1830182421356607839
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
